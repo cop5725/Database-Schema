@@ -1,6 +1,6 @@
-CREATE TABLE acted_in (
-    ActorID int NOT NULL,
+CREATE TABLE directed (
+    DirectorID int NOT NULL,
     MovieID int NOT NULL,
-    FOREIGN KEY (ActorID) REFERENCES Actors(ActorID),
+    FOREIGN KEY (DirectorID) REFERENCES Persons(PersonID),
     FOREIGN KEY (MovieID) REFERENCES Movies(MovieID)
 );
