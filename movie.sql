@@ -1,5 +1,5 @@
 CREATE TABLE MOVIE (
-	MovieID int NOT NULL PRIMARY KEY,
+	MovieID int PRIMARY KEY,
 	ImdbID varchar(20) NOT NULL,
 	Title varchar(50) NOT NULL,
 	Budget int,
