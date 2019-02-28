@@ -1,0 +1,4 @@
+CREATE TABLE GENRE (
+	ID int NOT NULL PRIMARY KEY,
+	Name varchar(20) NOT NULL
+);
