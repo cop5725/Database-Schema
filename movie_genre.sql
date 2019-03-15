@@ -1,0 +1,6 @@
+CREATE TABLE movie_genre (
+	MovieID int PRIMARY KEY,
+	GenreID int NOT NULL,
+	FOREIGN KEY (MovieID) REFERENCES Movie(MovieID),
+	FOREIGN KEY (GenreID) REFERENCES Genre(ID)
+);
