@@ -1,4 +1,4 @@
 CREATE TABLE GENRE (
-	ID int PRIMARY KEY,
+	GenreID integer PRIMARY KEY,
 	Name varchar(20) NOT NULL
 );

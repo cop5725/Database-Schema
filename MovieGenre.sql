@@ -1,6 +1,6 @@
-CREATE TABLE movie_genre (
-	MovieID int PRIMARY KEY,
-	GenreID int NOT NULL,
+CREATE TABLE MovieGenre (
+	MovieID integer,
+	GenreID integer,
 	FOREIGN KEY (MovieID) REFERENCES Movie(MovieID),
 	FOREIGN KEY (GenreID) REFERENCES Genre(ID)
 );

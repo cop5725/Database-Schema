@@ -1,9 +1,11 @@
 CREATE TABLE MOVIE (
-	MovieID int PRIMARY KEY,
+	MovieID integer,
 	ImdbID varchar(20) NOT NULL,
 	Title varchar(50) NOT NULL,
-	Budget int,
-	Revenue int,
-	ReleaseDate DATE,
-	Runtime int
+	Budget integer,
+	Revenue integer,
+	ReleaseDate date,
+	Runtime integer,
+    Popularity number(8,6),
+    PRIMARY KEY (MovieID)
 )
