@@ -1,6 +1,7 @@
 CREATE TABLE PERSONS (
-    PersonID int PRIMARY KEY,
-    LastName varchar(255) NOT NULL,
-    FirstName varchar(255) NOT NULL,
-    Gender varchar(255)
+    PersonID integer,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Gender varchar(20),
+    PRIMARY KEY (PersonID)
 );

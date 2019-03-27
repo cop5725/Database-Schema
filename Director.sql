@@ -1,6 +1,6 @@
 CREATE TABLE directed (
-    DirectorID int NOT NULL,
-    MovieID int NOT NULL,
+    DirectorID integer,
+    MovieID integer,
     FOREIGN KEY (DirectorID) REFERENCES Persons(PersonID),
     FOREIGN KEY (MovieID) REFERENCES Movies(MovieID)
 );
